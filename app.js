@@ -27,7 +27,7 @@ const notFound = require('./middleware/not-found')
 
 app.use(cors({
     origin: "http://localhost:3000",
-    // allowedHeaders:'*',
+    allowedHeaders:'*',
     credentials: true,  
     // exposedHeaders: ["set-cookie"]
 }))
